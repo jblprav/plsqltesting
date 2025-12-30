@@ -1,0 +1,10 @@
+[environments.target1]
+user = "hr"
+password = "${localSecret.Flyway Desktop 4f7ef5d9-f570-4cf7-8180-fd5208886409}"
+
+[environments.development]
+url = "jdbc:oracle:thin:@//localhost:1522/orcl19"
+user = "hr"
+password = "${localSecret.Flyway Desktop d36fdae3-dd0d-4d3d-ae14-cef8d6b078b4}"
+schemas = [ "hr" ]
+displayName = "Development database"
