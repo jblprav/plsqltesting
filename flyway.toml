@@ -83,5 +83,5 @@ includeStoragePctFree = false
 includeStorageTablespace = false
 
 [environments.target1]
-url = "jdbc:oracle:thin:@//localhost:1521/orcl12c"
+url = "jdbc:oracle:thin:@//localhost:1522/orcl19"
 schemas = [ "hr" ]
